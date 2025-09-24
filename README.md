@@ -87,9 +87,9 @@ backend
 
 ---
 
-## ⚙️ Backend – GraphQL API
+## Backend – GraphQL API
 
-### 📁 Folder: `product-graphql-api`
+### Folder: `product-graphql-api`
 
 This service exposes a **GraphQL API** that serves product (headphone) data from `data/headphones.json`.
 
@@ -115,7 +115,7 @@ This service exposes a **GraphQL API** that serves product (headphone) data from
 ]
 ```
 
-### 🚀 Run API
+### Run API
 
 ```bash
 cd product-graphql-api
@@ -141,9 +141,9 @@ query {
 
 ---
 
-## 🎨 Frontend – React App
+## Frontend – React App
 
-### 📁 Folder: `recommender-react-graphql-app`
+### Folder: `recommender-react-graphql-app`
 
 This React app connects to the **GraphQL API** using Apollo Client.
 
@@ -153,7 +153,7 @@ Features:
 * **Submit filters** and see results.
 * Products displayed in **collapsible cards** with details (image, price, description, colour).
 
-### 🚀 Run Frontend
+### Run Frontend
 
 ```bash
 cd product-recommender-react-graphql-app
@@ -165,7 +165,7 @@ The app will start on [http://localhost:3000](http://localhost:3000).
 
 ---
 
-## 🔗 Connecting Frontend & Backend
+## Connecting Frontend & Backend
 
 * Start the **GraphQL API** first (`npm start` in `product-graphql-api`).
 * Then run the **React frontend** (`npm start` in `product-recommender-react-graphql-app`).
@@ -175,14 +175,14 @@ The app will start on [http://localhost:3000](http://localhost:3000).
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 * **Backend**: Node.js, TypeScript, Express.js, Apollo Server, GraphQL
 * **Frontend**: React, Apollo Client, JavaScript, CSS
 
 ---
 
-## 📌 Future Improvements
+## Future Improvements
 
 * Add **search bar** for product names.
 * Add **pagination or infinite scrolling** for products.
