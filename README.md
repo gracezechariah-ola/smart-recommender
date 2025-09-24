@@ -143,7 +143,7 @@ query {
 
 ## 🎨 Frontend – React App
 
-### 📁 Folder: `product-recommender-react-graphql-app`
+### 📁 Folder: `recommender-react-graphql-app`
 
 This React app connects to the **GraphQL API** using Apollo Client.
 
